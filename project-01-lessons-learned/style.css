@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: montserrat, serif, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  color: rgb(10, 10, 10);
+}
+
+#cabecalho {
+  background-color: crimson;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#minha_foto {
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 100%;
+}
+
+#div-foto {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+#licoes_aprendidas {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+#listas {
+  text-align: center;
+}
+
+#licoes_a_aprender {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+#lista-ordenada {
+  display: inline-block;
+  padding: 10px 100px;
+}
+
+#lista-nao-ordenada {
+  display: inline-block;
+  padding: 10px 100px;
+}
+
+#rodape {
+  color: white;
+  background-color: black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+  margin-top: 45px;
+  padding: 10px;
+  border-bottom: 1px solid gainsboro;
+  text-align: center;
+}
+
+nav a {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+article {
+  display: inline-block;
+  width: 400px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid grey;
+  margin-right: 20px;
+}
+
+aside {
+  display: inline-block;
+  width: 400px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid grey;
+  margin-left: 20px;
+}
+
+#aprendizados {
+  text-align: center;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#quem-sou-eu {
+  border: 2px solid grey;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 40px;
+  max-width: 864px;
+}
+
+.lado-esquerdo h3 {
+  background-color: deepskyblue;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 10px;
+}
+
+.lado-direito h3 {
+  background-color: lawngreen;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 10px;
+}
+
+#quem-sou-eu h3 {
+  background-color: deeppink;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 10px;
+}
+
+#pai-quem-sou-eu {
+  display: flex;
+  justify-content: center;
+}
